@@ -1,6 +1,6 @@
 import {Component} from 'react';
 
-const url ="http://localhost:8080/apiColonia/";
+const url ="https://backend-duenderojo.herokuapp.com/apiColonia/";
 const urlGetColonos="listaColonos";
 const urlGetColonoById="listaColonos/idBusqueda";
 const urlUpdatePagado='/updatePagado/Colono';
