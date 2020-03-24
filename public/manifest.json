@@ -1,0 +1,15 @@
+{
+  "short_name": "ADMIN Duende Rojo",
+  "name": "Colonia el Duende Rojo",
+  "icons": [
+    {
+      "src": "./ico.jpg",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#efefef",
+  "background_color": "#efefef"
+}

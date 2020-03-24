@@ -1,0 +1,83 @@
+.InfoInscripto-content{
+    width: 100vw;
+    height: 100%;
+}
+
+.text-big{
+    font-size: 25px;
+}
+
+.text-medium{
+    font-size: 20px;
+}
+
+@media (max-width: 700px){
+    .text-big{
+        font-size: 23px;
+    }
+    
+    .text-medium{
+        font-size: 15px;
+    }
+  }
+
+.margin-big{
+    margin: 20px;
+}
+
+.margin-medium{
+    margin: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.contenedor-datos{
+    background-color: #b91d1d;
+    color: #fff;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content-datos-colono{
+    width: 80%;
+}
+
+.title-datos{
+    width: 100%;
+}
+
+.title-datos:hover{
+    background-color: #d34a4a;
+    cursor: pointer;
+}
+
+.info{
+    width: 100%;
+    margin-top:10px;
+}
+
+.txt{
+    width: 100%;
+}
+
+.input{
+    text-align: center;
+    width:80%;
+    padding: 10px
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.App{
+    background-color: #efefef;
+    width: 100vw;
+    height: 100vh;
+}
+
+.no-selec{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

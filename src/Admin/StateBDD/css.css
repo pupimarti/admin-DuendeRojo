@@ -1,0 +1,46 @@
+.circulo-cargando{
+    height: 40px;
+    width: 40px;
+    border: solid 10px #d1cece;
+    border-top: solid 10px #6b0b0b;
+    border-radius: 50%;
+}
+
+@media (max-width: 700px){
+    .circulo-cargando{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    .circulo-cargando{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.content-stateBDD{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.girar{
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

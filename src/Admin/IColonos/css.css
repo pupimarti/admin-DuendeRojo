@@ -1,0 +1,26 @@
+.content-admin{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+.content-admin .header, .content-admin .footer{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-select{
+    font-size: 15px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
